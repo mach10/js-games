@@ -1,7 +1,7 @@
 ###JS-GAMES
 A small repo holding some problems to be solved with javascript
 
-All commands to be run from within the root directory
+All commands to be run from within the root directory `js-games`
 
 Run `npm install` to install Jest
 
@@ -10,18 +10,17 @@ Make a branch named after the candidate first, and pushed back to that branch af
 
 ## Roman Numerals
 Convert decimal numbers into their roman equivalents
-#### testing
+#### Notes for interviewers
+Run the tests
 ```bash
 npm run test-roman
 ```
-There are tests already written. Hide all but the first. Run it (see above). It will fail. Ask the candidate to 
-fix it in the easiest way possible. 
-Once the test passes, make the next test visible. Run the tests. One will pass, one will fail.  
-Keep going exposing one more test
-each iteration, running all the tests before a solution (so at least one test fails)
+There is one test. After that one is passing, introduction other numbers, ignoring hard numbers such as 4. 
+I like to go 2, 3, 5, 8, 10, 21 one at a time, only progressing when all the tests pass.
 Ignore the numbers 4, 9, 40 etc
 ### too easy?
-Introduce the numbers 4, 9, 40 etc 
+If that has been solved, it's likely all numbers will have been solved with maybe the exception of the hard numbers like 4. 
+So add 43, 1998 etc. 
 
 ## divisor
 Write a function which will find all such numbers which are divisible by 7 but are not a multiple of 5, 
