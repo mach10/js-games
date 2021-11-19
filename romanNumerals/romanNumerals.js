@@ -2,7 +2,7 @@
 * see tests for examples
 * */
 
-const converter = (decimal, converted = "") => {
+const converter = (decimal) => {
     return null
 };
 
