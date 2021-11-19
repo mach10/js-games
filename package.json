@@ -4,11 +4,12 @@
   "description": "Some quizzes to be solved using javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-roman": "jest ./romanNumerals"
   },
   "author": "mach10",
   "license": "ISC",
   "devDependencies": {
-      "jest": "^27.3.1"
+    "jest": "^27.3.1"
   }
 }
