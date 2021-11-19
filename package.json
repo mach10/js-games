@@ -1,0 +1,14 @@
+{
+  "name": "js-games",
+  "version": "1.0.0",
+  "description": "Some quizzes to be solved using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mach10",
+  "license": "ISC",
+  "devDependencies": {
+      "jest": "^27.3.1"
+  }
+}
