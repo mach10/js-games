@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test-roman": "jest ./romanNumerals"
+    "test-roman": "jest ./romanNumerals",
+    "test-factorial": "jest ./factorial"
   },
   "author": "mach10",
   "license": "ISC",
