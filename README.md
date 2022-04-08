@@ -9,7 +9,7 @@ We're trying to do TTD here, so pay attention to how the candidate communicates 
 Make a branch named after the candidate first, and pushed back to that branch after. 
 
 ## Roman Numerals
-Convert decimal numbers into their roman equivalents
+Convert decimal integers into their roman equivalents
 #### Notes for interviewers
 Run the tests
 ```bash
@@ -31,13 +31,13 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 npm run run-divisor
 ```
 This is to be run ideally from your IDE. No test as such. Just view the output and check some of the 
-values output on the console. One of the things to check is that the candidate read the instructions correctly. 
+values output on the console. 
 ```bash
 node divisor/divisor.js
 ```
 ### too easy?
-Get the candidate to accept any range, sanity check the range first 
-Get the candidate to accept any numbers and divisors, multiples of etc
+accept any range, sanity check the range first 
+accept any numbers and divisors, multiples of etc
 
 ## factorial
 Write a function that produces the factorial of any given number.  
@@ -68,6 +68,6 @@ You should assume your code is going to be deployed to production and at some la
 For this project you can use any programming language you wish. You can access any reference material online or locally. Feel free to make notes on paper, if you like. Finally, this is meant to be collaborative, and I’m your product manager. You can ask me any questions, and while we’re working, I may ask you questions to clarify decisions you’ve made. 
 ### too easy?
 Modify the code to handle an arbitrary-size square grid.
-If the candidate used a “brute-force” method of checking for wins, ask them how to do it without brute-forcing.
-If the candidate is very comfortable and has completed the exercise, consider asking them to also return a “Draw” response if there is no winner and there are no winning moves remaining for either player.
-Did they write tests? If not, suggest they give it a try.    
+used a “brute-force” method of checking for wins? do it without brute-forcing.
+consider asking them to also return a “Draw” response if there is no winner and there are no winning moves remaining for either player.
+Write tests   
